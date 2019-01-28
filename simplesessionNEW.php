@@ -1,12 +1,12 @@
 <?php
 
 $curl = curl_init();
-$username = "merchant.TESTVICTESNB237";
-$password = "ed17a6e2ed43172c0f7bde912cbe54de";
+//$username = "merchant.TESTVICTESNB237";
+//$password = "ed17a6e2ed43172c0f7bde912cbe54de";
 $newdata = array("lineOfBusiness" => "test_socks");
 $postdata = json_encode($newdata);
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://gateway.test.nab.com.au/api/rest/version/46/merchant/TESTVICTESNB237/session",
+  CURLOPT_URL => "https://${prefix}gateway.mastercard.com/api/rest/version/${apiVersion}/merchant/${merchantId}/session",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 100,
