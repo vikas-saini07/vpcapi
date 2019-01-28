@@ -1,5 +1,5 @@
 <?php
-include '_bootstrap.php'
+include '_bootstrap.php';
 $curl = curl_init();
 //$username = "merchant.TESTVICTESNB237";
 //$password = "ed17a6e2ed43172c0f7bde912cbe54de";
