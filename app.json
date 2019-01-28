@@ -1,8 +1,8 @@
 {
     "name": "Gateway Merchant Server",
     "description": "Sample PHP application for processing mobile victor-samples-01 SDK transactions on the Gateway",
-    "repository": "https://github.com/victor0888/victor-samples-01 ",
-    "website": "https://github.com/victor0888/victor-samples-01",
+    "repository": "https://github.com/victor0888/VictorSamples",
+    "website": "https://github.com/victor0888/VictorSamples",
     "env": {
         "GATEWAY_MERCHANT_ID": {
             "required": true,
