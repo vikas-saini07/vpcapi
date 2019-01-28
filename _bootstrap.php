@@ -16,10 +16,10 @@
  */
 error_reporting('all');
 // pull environment vars
-$merchantId = getenv('GATEWAY_MERCHANT_ID');
-$password = getenv('GATEWAY_API_PASSWORD');
+$merchantId = getenv('TESTVICTESNB237');
+$password = getenv('ed17a6e2ed43172c0f7bde912cbe54de');
 $region = getenv('GATEWAY_REGION');
-$apiVersion = getenv('GATEWAY_API_VERSION');
+$apiVersion = getenv('47');
 // merchant id must be TEST
 $merchantIdPrefix = substr($merchantId, 0, 4);
 if (strcasecmp($merchantIdPrefix, "test") != 0) {
