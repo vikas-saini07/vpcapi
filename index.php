@@ -30,7 +30,8 @@ include '_bootstrap.php';
         <p>This is an sample application to help developers start building mobile applications using the Gateway mobile SDK.</p>
         <h3>Available APIs</h3>
         <ul>
-            <li><a href="./simplesessionNEW.php">Create Session</a></li>
+            <li><a href="./simplesessionNEW.php">Create Session JSON</a></li>
+            <li><a href="./CreateSessionNVP.php">Create Session NVP</a></l
         </ul>
     </body>
 </html>
