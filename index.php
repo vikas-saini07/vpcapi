@@ -31,7 +31,7 @@ include '_bootstrap.php';
         <h3>Available APIs</h3>
         <ul>
             <li><a href="./simplesessionNEW.php">Create Session JSON</a></li>
-            <li><a href="./CreateSessionNVP.php">Create Session NVP</a></l
+            <li><a href="./CreateSessionNVP.php">Create Session NVP</a></li>
         </ul>
     </body>
 </html>
