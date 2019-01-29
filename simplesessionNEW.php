@@ -14,11 +14,10 @@ curl_setopt_array($curl, array(
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => "POST",
   CURLOPT_POSTFIELDS => "$postdata",
-  CURLOPT_USERPWD => "$username:$password"
-  /*CURLOPT_HTTPHEADER => array(
-    'Content-Type: application/json',
-    'Authorization: Basic ' . base64_encode("$username:$password")
-)*/);
+  //CURLOPT_USERPWD => "$username:$password"
+  CURLOPT_HTTPHEADER => array(
+    "Authorization: Basic " . base64_encode("$username:$password")
+));
 $response = curl_exec($curl);
 $err = curl_error($curl);
 curl_close($curl);
