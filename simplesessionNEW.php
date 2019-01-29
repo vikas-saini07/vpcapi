@@ -16,7 +16,7 @@ curl_setopt_array($curl, array(
   CURLOPT_POSTFIELDS => "$postdata",
   //CURLOPT_USERPWD => "$username:$password"
   CURLOPT_HTTPHEADER => array(
-    "Authorization: Basic " . base64_encode("$username:$password")
+    'Authorization: Basic ' . base64_encode("$username:$password")
 ));
 $response = curl_exec($curl);
 $err = curl_error($curl);
