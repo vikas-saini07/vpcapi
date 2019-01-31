@@ -9,12 +9,12 @@ curl_setopt_array($curl, array(
   CURLOPT_SSL_VERIFYPEER => false,
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
-  CURLOPT_MAXREDIRS => 100,
-  CURLOPT_TIMEOUT => 400,
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 40,
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => "POST",
   CURLOPT_POSTFIELDS => "$postdata",
-  CURLOPT_USERPWD => "$username:$password"
+  //CURLOPT_USERPWD => "$username:$password"
   CURLOPT_HTTPHEADER => array(
     'Authorization: Basic ' . base64_encode("$username:$password"))
 ));
