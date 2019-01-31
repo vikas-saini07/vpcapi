@@ -7,6 +7,7 @@ $newdata = array("lineOfBusiness" => "test_socks");
 $postdata = json_encode($newdata);
 curl_setopt_array($curl, array(
   CURLOPT_URL => "https://${prefix}gateway.mastercard.com/api/rest/version/${apiVersion}/merchant/${merchantId}/session",
+  CURLOPT_SSL_VERIFYPEER => false,
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 100,
