@@ -32,6 +32,7 @@ include '_bootstrap.php';
         <ul>
             <li><a href="./simplesessionNEW.php">Create Session JSON</a></li>
             <li><a href="./CreateSessionNVP.php">Create Session NVP</a></li>
+            <li><a href="./PHP_VPC_3DS 2.5 Party_Order.html">Create Session NVP</a></li>
         </ul>
     </body>
 </html>
