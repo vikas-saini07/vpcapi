@@ -12,7 +12,7 @@ $conn = new VPCPaymentConnection();
 // This is secret for encoding the SHA256 hash
 // This secret will vary from merchant to merchant
 
-$secureSecret = "";
+$secureSecret = "512ACA46E9A1F9C55013221B2220B1D9";
 
 // Set the Secure Hash Secret used by the VPC connection object
 $conn->setSecureSecret($secureSecret);
