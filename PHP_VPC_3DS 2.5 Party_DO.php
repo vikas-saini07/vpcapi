@@ -10,7 +10,7 @@
 // This secret will vary from merchant to merchant
 // To not create a secure hash, let SECURE_SECRET be an empty string - ""
 include('SecureHash.php');
-//$securesecret =  $securesecretvar;
+$securesecret =  $securesecretvar;
 	
 	//"6FE538069493E5109884E726715FAEDC";
 	
@@ -26,7 +26,7 @@ $conn = new VPCPaymentConnection();
 
 
 // Set the Secure Hash Secret used by the VPC connection object
-//$conn->setSecureSecret($securesecret);
+$conn->setSecureSecret($securesecret);
 
 
 // *******************************************
