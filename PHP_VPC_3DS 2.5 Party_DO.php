@@ -9,6 +9,7 @@
 // This is secret for encoding the SHA256 hash
 // This secret will vary from merchant to merchant
 // To not create a secure hash, let SECURE_SECRET be an empty string - ""
+include('SecureHash.php');
  echo $securesecretvar;
 $securesecret =  "";
 	
