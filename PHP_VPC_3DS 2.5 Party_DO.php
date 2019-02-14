@@ -9,7 +9,7 @@
 // This is secret for encoding the SHA256 hash
 // This secret will vary from merchant to merchant
 // To not create a secure hash, let SECURE_SECRET be an empty string - ""
-$securesecretvar  = $_POST["vpc_SecureHash"];
+
 $securesecret = $securesecretvar; 
 	
 	//"6FE538069493E5109884E726715FAEDC";
