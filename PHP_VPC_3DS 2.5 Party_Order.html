@@ -32,7 +32,24 @@
 <table width='100%' border='2' cellpadding='2' bgcolor='#C1C1C1'><tr><td bgcolor='#E1E1E1' width='90%'><h2 class='co'>&nbsp;Virtual Payment Client Example</h2></td><td bgcolor='#C1C1C1' align='center'><h3 class='co'>MIGS</h3></td></tr></table>
 	<center><h1>PHP 2.5 Party (MerchantHosted Authenticate and Pay) Example</H1></center>
 </table>
-	
+<form action="PHP_VPC_3DS 2.5 Party_DO.php" method="post">
+	<table width="80%" align="center" border="0" cellpadding='0' cellspacing='0'>
+    <tr class="shade">
+	    <td align="right"><strong><em>Virtual Payment Client HashSecret:&nbsp;</em></strong></td>
+  </tr>
+		<tr class="shade">
+						<td align="right"><strong><em>vpc_SecureHash: </em></strong></td>
+						<td><input name="vpc_SecureHash" value="" size="100" maxlength="100"/></td>
+					</tr>
+		
+		                    <tr>
+                        <td style="height: 21px" />
+                        <td style="text-align: left; height: 21px"><input type="submit" name="passHashValue" value="Pass Hash" id="passHashValue" /></td>
+                    </tr>
+	<td width="40%">&nbsp;</td>
+        <td width="60%">&nbsp;</td>
+    </table>
+  </form>
 <!-- The "Pay Now!" button submits the form, transferring control -->
 <form action="PHP_VPC_3DS 2.5 Party_DO.php" method="post">
 	<table width="80%" align="center" border="0" cellpadding='0' cellspacing='0'>
@@ -58,10 +75,6 @@
 						<td><input name="vpc_Merchant" value="" size="20" maxlength="16"/></td>
 					</tr>
 		<tr class="shade">
-			                 <tr>
-						<td align="right"><strong><em>vpc_SecureHash: </em></strong></td>
-						<td><input name="vpc_SecureHash" value="" size="100" maxlength="100"/></td>
-					</tr>
 					<tr>
 						<td align="right"><strong><em>Merchant AccessCode: </em></strong></td>
 						<td><input name="vpc_AccessCode" value="" size="20" maxlength="8"/></td>
