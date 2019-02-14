@@ -26,7 +26,7 @@ $conn = new VPCPaymentConnection();
 
 
 // Set the Secure Hash Secret used by the VPC connection object
-$conn->setSecureSecret($securesecret);
+$conn->setSecureSecret($securesecretvar);
 
 
 // *******************************************
