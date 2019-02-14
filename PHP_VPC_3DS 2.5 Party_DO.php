@@ -10,7 +10,9 @@
 // This secret will vary from merchant to merchant
 // To not create a secure hash, let SECURE_SECRET be an empty string - ""
 
-$securesecret = "512ACA46E9A1F9C55013221B2220B1D9";
+$securesecret = $_GET["vpc_SecureHash"]; 
+	
+//"512ACA46E9A1F9C55013221B2220B1D9";
 
 //Include VPCPaymentConnection.php file
 include('VPCPaymentConnection.php');
