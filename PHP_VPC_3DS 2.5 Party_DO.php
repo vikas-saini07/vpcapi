@@ -18,7 +18,7 @@
 
 //Include VPCPaymentConnection.php file
 include('VPCPaymentConnection.php');
-include('SecureHash.php');
+//include('SecureHash.php');
 $securesecret = $securesecretvar;
 echo $securesecretvar;
 $conn = new VPCPaymentConnection();
@@ -27,7 +27,7 @@ $conn = new VPCPaymentConnection();
 
 
 // Set the Secure Hash Secret used by the VPC connection object
-$conn->setSecureSecret($securesecretvar);
+$conn->setSecureSecret($securesecret);
 
 
 // *******************************************
@@ -84,7 +84,7 @@ $appendAmp = 0;
 $hashinput = rtrim($hashinput, "&");
 ?>		
 	<!-- attach SecureHash -->
-    <input type="hidden" name="vpc_SecureHash" value="<?php echo(strtoupper(hash_hmac('SHA256', $hashinput, pack('H*',$securesecretvar)))); ?>"/>
+    <input type="hidden" name="vpc_SecureHash" value="<?php echo(strtoupper(hash_hmac('SHA256', $hashinput, pack('H*',$securesecret)))); ?>"/>
 		<input type="hidden" name="vpc_SecureHashType" value="SHA256">
 </td></tr>
 </table>
