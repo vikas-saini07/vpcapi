@@ -10,9 +10,8 @@
 // This secret will vary from merchant to merchant
 // To not create a secure hash, let SECURE_SECRET be an empty string - ""
 include('SecureHash.php');
-echo $securesecretvar;
 $securesecret = $securesecretvar;
-	
+echo $securesecret;	
 	//"6FE538069493E5109884E726715FAEDC";
 	
 	//$_GET["vpc_SecureHash"]; 
