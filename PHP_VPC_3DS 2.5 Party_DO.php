@@ -19,8 +19,7 @@
 //Include VPCPaymentConnection.php file
 include('VPCPaymentConnection.php');
 //include('SecureHash.php');
-$securesecret = $securesecretvar;
-echo $securesecretvar;
+$securesecret = $_POST["vpc_SecureHashNew"];
 $conn = new VPCPaymentConnection();
 
 
@@ -33,7 +32,8 @@ $conn->setSecureSecret($securesecret);
 // *******************************************
 // START OF MAIN PROGRAM
 // *******************************************
-
+// Sort the POST data - it's important to get the ordering right
+ksort ($_POST);
 
 // add the start of the vpcURL querystring parameters
 $vpcURL = $_POST["virtualPaymentClientURL"];
