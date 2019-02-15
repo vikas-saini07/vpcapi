@@ -6,7 +6,7 @@
 
 // 
 include('PHP_VPC_3DS 2.5 Party_DO.php');
-include('SecureHash.php');
+//include('SecureHash.php');
 $conn = new VPCPaymentConnection();
 
 
