@@ -27,7 +27,7 @@ include '_bootstrap.php';
     </head>
     <body>
         <h1>Gateway Test Merchant Server</h1>
-        <p>This is an sample application to help developers start building mobile applications using the Gateway mobile SDK.</p>
+        <p>This is an sample application to help with testing using the Gateway MIGS and MPGS.</p>
         <h3>Available APIs</h3>
         <ul>
             <li><a href="./simplesessionNEW.php">Create Session JSON</a></li>
