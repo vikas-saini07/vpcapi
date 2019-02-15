@@ -54,7 +54,7 @@ unset($_POST["btnPay"]);
 // case we want to create a secure hash and add it to the VPC data if the
 // merchant secret has been provided.
 
-ksort ($_POST);
+//ksort ($_POST);
 
 // set a parameter to show the first pair in the URL
 $appendAmp = 0;
