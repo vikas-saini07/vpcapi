@@ -11,7 +11,7 @@
 // To not create a secure hash, let SECURE_SECRET be an empty string - ""
 include('SecureHash.php');
 $securesecret = $securesecretvar;
-echo $securesecret;	
+echo $securesecretvar;	
 	//"6FE538069493E5109884E726715FAEDC";
 	
 	//$_GET["vpc_SecureHash"]; 
