@@ -33,7 +33,7 @@ include '_bootstrap.php';
             <li><a href="./simplesessionNEW.php">Create Session JSON</a></li>
             <li><a href="./CreateSessionNVP.php">Create Session NVP</a></li>
             <li><a href="./PHP_VPC_3DS 2.5 Party_Order.html">VPC Requests 2.5 Party Here</a></li>
-            <li><a href="./SetHashValue.html">VPC Requests 2.5 Set Hash Value Here</a></li>
+            <li><a href="./PHP_VPC_3Party_Order.html">VPC Requests 3 Party Here</a></li>
         </ul>
     </body>
 </html>
