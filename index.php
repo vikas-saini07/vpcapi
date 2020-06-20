@@ -34,6 +34,7 @@ include '_bootstrap.php';
             <li><a href="./CreateSessionNVP.php">Create Session NVP</a></li>
             <li><a href="./PHP_VPC_3DS 2.5 Party_Order.html">VPC Requests 2.5 Party Here</a></li>
             <li><a href="./PHP_VPC_3Party_Order.html">VPC Requests 3 Party Here</a></li>
+            <li><a href="./query.php">VPC queryDR</a></li>
         </ul>
     </body>
 </html>
